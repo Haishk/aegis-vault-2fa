@@ -1,0 +1,29 @@
+AEGIS VAULT - COMPREHENSIVE TECHNICAL FEATURES
+==============================================
+
+[CRYPTOGRAPHIC ENGINE]
+1. Zero-Knowledge Execution: Plaintext "Will" never mathematically exists in system RAM after encryption phase.
+2. Dual-Layer Encryption: Complete AES-256 Wrapping of the core payload occurring uniquely in the browser Sandbox before network transit.
+3. Native Polynomial Sharding: Leverages Shamir's Secret Sharing matrix to fracture the AES Key geometrically inside the browser.
+4. Out-of-Band 2FA Validation: Double-encrypts the Shamir Shards randomly using unique dynamically generated 6-Digit Security PINs before SQLite DB transmission. 
+5. Mathematical Thresholds (M-of-N): Dynamically scales to require a minimum consensus (K) of physically isolated Shards (N) to rebuild equations linearly.
+
+[BACKEND & STORAGE (NODE.JS + SQLITE)]
+6. Decentralized Storage Simulation: The SQLite3 `.sqlite` database functions explicitly as a pure, cold-storage router (receiving no raw decrypting logic properties).
+7. Immutable Audit Leger: A permanent database schema that sequentially tracks Event Logs (Vaults generated, keys bound, Heartbeat intervals reset).
+8. Real-Time Telemetry Streaming: Full-stack integration pushing countdown timers and SQL Ledger items from Backend directly to React Frontend gracefully.
+
+[BIOMETRIC MFA HEARTBEAT (THE DEAD MAN'S SWITCH)]
+9. Facial Matrix Scanning: Extracted basic password resets and mapped a Live DOM Camera integration invoking dynamic verification geometry for Proof of Life.
+10. Automatic Failsafe Timers: SQLite cron-simulation establishing dynamic Deadlines (T-Minus 30 Days).
+11. Local Trigger Simulations: Designed specifically for live architectural presentations, pushing Database timers natively to 0.
+
+[SMTP DELIVERY LAYER]
+12. HTML Automated Email Construction: Natively composes the Master AES Ciphertext, the AES Unique Shard, and Trustee specific instructions dynamically into HTML block matrices.
+13. Ethereal Cloud Connections: Connects physically to external SMTP transport servers firing real transmission protocols.
+14. Audit Log Verification Demos: Auto-fetches the actual delivery receipt from the internet and logs the 'Preview URI' cleanly into the UI allowing audiences to visibly read the received Email blocks instantly.
+
+[DECENTRALIZED UI RECONSTRUCTION (FRONTEND)]
+15. Dynamic Glassmorphism System: Complete Framer-Motion implementation pushing elite Web3 visual experiences.
+16. Un-Packer Architecture: Reconstruct Portal acts universally bridging "Post-Mortem" functionality, consuming HTML Emailed Ciphertexts + Shards + Human Memory 6-Digit PINs simultaneously. 
+17. Real-Time RAM Error Feedback: Handles invalid Matrix combinations safely, logging discrete 'Invalid 2FA PIN' mapping strings preventing fatal DOM execution crashes gracefully.

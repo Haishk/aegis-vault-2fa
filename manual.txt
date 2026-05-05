@@ -1,0 +1,34 @@
+AEGIS DIGITAL VAULT PROTOCOL - SYSTEM ARCHITECTURE MANUAL
+=========================================================
+
+1. PROJECT OVERVIEW
+The Aegis Digital Vault Protocol is a complete Full-Stack Decentralized "Dead Man's Switch". It is built to securely store sensitive digital assets (Wills, Crypto Seeds) and automatically email decryption tools to trusted heirs only IF the primary user passes away. It requires consensus (e.g., 3 out of 5 friends) to reverse its algorithms and completely defends against Database hacks utilizing 2-Factor Authentication Out-of-Band Keys.
+
+2. TAB WORKFLOW CLARIFICATION
+
+TAB 1: Initialize (Payload Injection)
+- The user provides their secret payload (the primary Will). 
+- They define N (total friends) and K (threshold ratio indicating how many friends must bring their encrypted shard packages together to computationally reverse the math).
+- ACTION: The browser securely AES-encrypts the payload, fragments the Key strictly into M-of-N shards organically utilizing Shamir's Secret Sharing formulas, and prepares it for backend routing.
+
+TAB 2: Trustee Routing (The Out-of-Band 2FA Key Wrapping)
+- The UI generates independent AES shards based on your "N" value. The user must provide a distinct email address for each shard.
+- To prevent hackers from extracting shards if the server is breached, the browser natively outputs unique 6-Character Security PINs for each friend (e.g., A7X9F2). It aggressively wraps the physical Shard string against this PIN via AES encryption before transmitting it to Node.js!
+- ACTION: The user physically scripts down the PINs (they must text/call the friends in the real world). The backend saves ONLY the blind PIN-locked shards mapping to the emails in the `pending_trustees` database awaiting the user's heartbeat failure.
+
+TAB 3: Post-Mortem Telemetry (The Hub & Biometric Heartbeat)
+- Provides the physical countdown timer polling natively from the Node API via `setInterval`. If zero, the database assumes the user died.
+- To prove life, the user performs a Hardware Facial Recognition scan. The device optical camera activates. If authorized natively, it fires an API POST call to the backend: "I am actively alive. Reset the timer for 30 more days."
+- DEMO FEATURE: A red "Simulate Death" button actively slices the SQL interval to 0 so the presenter can rapidly push the exact SMTP backend protocols into life.
+
+TAB 4: Reconstruct Demo (The Emailed Heirs Log-In Functionality)
+- Supposing the user died, the SQLite/Nodemailer backend natively just blasted physical emails containing the `AES_Ciphertext_Blob` + `Specific_AES_Shard` to the 5 Trustee emails globally.
+- The heirs coordinate at this uncoupled reconstruction portal. They uniquely paste the original giant payload encrypted Will alongside typing the specific 6-Digit PIN they received from the original User via offline texting years prior.
+- ACTION: The browser natively strips away the Out-Of-Band 2FA PINs utilizing CryptoJS. It forces the recovered shards back into Shamir's Polynomial equation, un-mathematizing the Master Key natively and forcefully displaying the User’s Will.
+
+3. START-UP INSTRUCTIONS
+Whenever launching the project cleanly from reboot:
+Terminal 1: Execute Node Server
+> `$ cd backend` > `$ npm install` > `$ node server.js`
+Terminal 2: Mount Vite Instance
+> `$ cd frontend` > `$ npm install` > `$ npm run dev`

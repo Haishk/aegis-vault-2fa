@@ -1,0 +1,35 @@
+AEGIS VAULT - TIMELINE FLOW (HOW IT WORKS START-TO-FINISH)
+=============================================
+
+This document is a highly simplified timeline explaining the physical lifecycle of a user inside the Aegis Protocol.
+
+--- 1. CREATION (User is Alive) ---
+- The user inputs their highly sensitive "Will" into the application.
+- The user decides: "I'm assigning Shards to 5 friends, but they only strictly need 3 physical Shards to mathematically combine the math and open my Will."
+- The application automatically scrambles the Will into an unbreakable, massive locked text block (The Master Ciphertext).
+- The application mathematically rips the Lock's Key apart into 5 individual pieces (The Shards).
+
+--- 2. OUT-OF-BAND ENCRYPTION (User is Alive) ---
+- The user inputs the 5 physical email addresses of their friends.
+- Before handing the keys to the backend, the software randomly generates a distinct "6-Digit Security PIN" for all 5 friends.
+- It aggressively encrypts each Shard again using that unique PIN. 
+- The user calls/texts their friends in normal life and says: "Keep this PIN safe forever."
+- The Database takes the Ciphertext and mathematically locked Shards. The Database has complete Zero Knowledge of the PINs or the contents of the Will.
+
+--- 3. THE HEARTBEAT METRICS (User is Alive) ---
+- A strict 30-Day countdown timer begins on the Server routing node.
+- To prove they are actively utilizing oxygen, the user must log in and perform a Physical Hardware Facial Biometric Scan via their laptop camera.
+- The Matrix verifies their face, forcing a server API hit, proving they are alive, and actively resetting the DB timer back to 30 Days indefinitely.
+
+--- 4. THE 0.00 ZERO TRIGGER (User Dies) ---
+- The user unfortunately suffers a devastating cardiac event, eventually failing to perform their Facial Scan before the 30-Day execution date.
+- The Server's "Dead Man Switch" automatically triggers. 
+- The Server wakes up the `SMTP Nodemailer` client, taking the 5 PGP-Encrypted Shards + Master Ciphertext out of cold storage.
+- It beautifully compiles an HTML warning email locally and fires it physically across the Web exclusively into the inboxes of all designated Trustee's emails.
+
+--- 5. DUAL-DECRYPTION (User is Dead) ---
+- The 5 friends receive a dire encrypted email saying the user has passed away, containing their unique Shard blob, the Master Ciphertext, and instructions.
+- The friends natively coordinate outside the application and visit the Reconstruct Portal endpoint. 
+- They paste the giant locked box (The Ciphertext) into the portal.
+- They paste exactly 3 of their 5 Emailed Envelopes into the portal ALONGSIDE the 6-Digit Security PINS they were texted years ago securely by the user.
+- Because the Security PINs unlock the Envelopes successfully, and exactly 3 (The Threshold metric) were met natively, the portal rebuilds the fundamental cryptography seamlessly unlocking the Vault and rendering the Will onto the DOM window.

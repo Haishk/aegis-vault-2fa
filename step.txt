@@ -1,0 +1,42 @@
+LIVE DEMO SCRIPT & STEP-BY-STEP HANDS-ON GUIDE
+==============================================
+Follow this script exactly during your presentation. Speak clearly, move slowly, and let the software animations and live terminal API logs prove the concept perfectly.
+
+--- THE PITCH ---
+(Ensure the front screen is on the "Walkthrough/Architecture" Tab)
+"Good morning. Centralized password managers are an enormous single point of failure within digital asset inheritance. If a database is hacked, everything leaks. Passing your digital legacy on automatically requires pure mathematics, not blind trust. 
+Today, I am presenting the Aegis Digital Vault Protocol—A Zero-Knowledge Dead Man's Switch empowered by M-of-N Cryptographic Sharding, Face Biometrics, and Out-of-Band Physical Dual-Factor Authentication."
+
+--- PHASE 1: GENERATION & THE OUT-OF-BAND GAP ---
+(Click "1. Setup Payload" Tab)
+ACTION 1: Type a simulated payload (e.g., 'Bitcoin Seed: alpha bravo ...') into the payload box.
+"I am inputting my Will. I set my Trustees to 5. I set my Threshold to 3. Mathematically, 3 friends must collaborate their pieces upon my death to un-shatter the Master Key."
+ACTION 2: Click the "Encrypt Payload via AES-256" button. 
+(Click "2. Trustee Routing" Tab when routed)
+ACTION 3: Punch in 3 distinct email addresses.
+"My browser fundamentally generated independent shards, but before they go to my SQL server, my browser natively wraps them entirely inside dynamically generated 6-Digit PINs... Watch."
+ACTION 4: Click the "Generate Security PINs" button.
+ACTION 5: A massive popup appears. *READ OFF ONE OF THE PINS TO THE CLASS*
+"I would text this exact 6-Digit PIN (e.g. A7BX92) to my friend off the internet entirely. Because the SQLite database only knows the Encrypted Box, a Database Breach gets a hacker exactly nothing unless they also hacked all 5 of my friends' physical cell phones. I will copy these PINs for our demo..."
+(COPY EXACTLY 3 PINS TO A NOTEPAD SO YOU CAN RECONSTRUCT LATER BEFORE CLICKING "TAKE ME TO DASHBOARD"!!!)
+
+--- PHASE 2: BIOMETRICS & TRIGGER ---
+(You are now on the "3. Dashboard" Tab)
+"If I pass away and fail to authenticate within 30 days, my Dead Man's Switch physically triggers Nodemailer to push email envelopes. How do I prove I'm alive? Passwords are weak. Physical Hardware Biometric verification."
+ACTION 6: Click the blue "Run AI Facial Recognition" button. Turn completely to your audience and DO NOT SPEAK. Let the dark Sci-Fi radar sweep your face while the matrix locks in natively.
+"My facial recognition successfully hit the backend API Endpoint, registering life, and reset my death timer."
+
+ACTION 7: Point to the Red "Demo: Trigger Death Now" button.
+"Let me demonstrate what happens during Heartbeat Failure. I'll purposefully slice the database metrics to zero to simulate me passing away."
+ACTION 8: Click the Red Button.
+"Watch the live SQL Audit Logs underneath..."
+ACTION 9: Read the Audit log to the class:
+"The database pushed the trigger. Notice how it instantly executed the Nodemailer SMTP sequence. It physically queried my Ciphertext and my Friend's PIN-Encrypted shards directly into an HTML layout, transmitting them out. The audit log literally contains the Ethereal Preview URL. You can physically hit this URL right now and see the email that just delivered."
+(If you have time, click the URL in the Audit Log and show the Room the exact physical HTML email the system generated!)
+
+--- PHASE 3: THE ZERO-KNOWLEDGE RECONSTRUCTION ---
+(Click on the "4. Reconstruct Vault" Tab)
+"It has been a week since my death. My 5 friends received their terrifying encrypted SMTP emails. They visit this uncoupled portal."
+ACTION 10: Using the Notepad PINs you saved, AND the Encrypted Shard Blobs you copy straight from your Terminal Console log (Or the Audit Log HTML page), paste them correctly into the Reconstruct fields. Finally, paste the massive Encrypted Ciphertext at the top. 
+ACTION 11: Click the green "Evaluate 2FA Pin Constraints & Decrypt Will" button. 
+"The portal instantaneously evaluates the Dual-Decryption matrices natively in the React RAM layer: It validates the out-of-band PIN texted 10 years ago, unpacks the hidden shards, geometrically connects them against the Shamir equations, zeroes into the Master Key computationally, and finally opens the physical Vault. Never once did my raw, unencrypted payload hit a server network. Thank you."
