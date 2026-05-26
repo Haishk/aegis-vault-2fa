@@ -1,16 +1,16 @@
-# Aegis Vault 2FA 🛡️🔐
+# Aegis Vault 2FA 
 
 > A zero-knowledge, decentralized "Dead Man's Switch" designed for the secure storage and autonomous dispersal of digital wills and sensitive assets.
 
 ---
 
-## 🛑 The Problem
+##  The Problem
 Centralized password managers represent a significant single point of failure. If an individual passes away or loses access, passing on encrypted digital assets (legal Wills, crypto wallets) securely currently requires immense trust in a singular entity or an automated script that is vulnerable to exploitation.
 
-## 🛡️ The Zero-Knowledge Solution
+##  The Zero-Knowledge Solution
 The **Aegis Protocol** provides a completely decentralized, zero-knowledge architecture built on modern cryptographic practices. It ensures that **no single point of failure**—neither the server, developers, nor any individual trustee—can compromise the stored assets.
 
-## ✨ Core Innovations
+##  Core Innovations
 
 ### 1. Shamir's Secret Sharing (Threshold Cryptography)
 The master decryption key is fractured into **N** fragments (shards) directly in the browser. A mathematical threshold **K** restricts reconstruction; for instance, if K=3, even a compromised database with 2 shards provides zero information about the master key.
@@ -39,7 +39,7 @@ Upon detecting a heartbeat failure, the SQL server automatically triggers **Node
 
 ---
 
-## 🚦 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
